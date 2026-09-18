@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(249, 246, 239, 0.94);
+  background: rgba(249, 247, 245, 0.94);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -57,7 +57,7 @@
   margin-bottom: 18px;
 }
 .card__title {
-  font-family: 'Merriweather', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -86,7 +86,7 @@
 
 .say {
   border-left: 3px solid var(--gold);
-  background: rgba(169,128,62,.08);
+  background: rgba(192,57,43,.08);
   border-radius: 0 10px 10px 0;
   padding: 14px 18px;
   margin: 12px 0;
@@ -131,14 +131,14 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--gold-dark);
-  background: rgba(169,128,62,.1);
+  background: rgba(192,57,43,.1);
   border-radius: 999px;
   padding: 5px 12px;
   margin-bottom: 12px;
 }
 
 .tip {
-  background: rgba(169,128,62,.08);
+  background: rgba(192,57,43,.08);
   border-radius: var(--radius);
   padding: 22px 26px;
   margin-top: 24px;
@@ -167,7 +167,7 @@
   margin: 0 auto;
 }
 .pitch__meta div { text-align: center; }
-.pitch__meta b { display: block; font-family: 'Merriweather', serif; font-size: 25px; color: var(--gold-dark); }
+.pitch__meta b { display: block; font-family: 'Manrope', sans-serif; font-size: 25px; color: var(--gold-dark); }
 .pitch__meta span { font-size: 13px; color: var(--ink-soft); }
 
 .offer {
@@ -181,7 +181,7 @@
 .offer:last-child { border-bottom: none; }
 .offer__name { font-weight: 600; color: var(--navy); }
 .offer__desc { display: block; font-weight: 400; font-size: 14px; color: var(--ink-soft); margin-top: 4px; }
-.offer__price { white-space: nowrap; font-family: 'Merriweather', serif; font-size: 19px; color: var(--gold-dark); }
+.offer__price { white-space: nowrap; font-family: 'Manrope', sans-serif; font-size: 19px; color: var(--gold-dark); }
 
 .cta-final {
   background: var(--navy-dark);
@@ -237,13 +237,13 @@
 }
 .hub-card:hover { border-color: var(--gold); transform: translateY(-3px); }
 .hub-card__num {
-  font-family: 'Merriweather', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: var(--gold-dark);
   margin-bottom: 14px;
 }
-.hub-card__title { font-family: 'Merriweather', serif; font-size: 22px; font-weight: 700; margin-bottom: 12px; color: var(--navy); }
+.hub-card__title { font-family: 'Manrope', sans-serif; font-size: 22px; font-weight: 700; margin-bottom: 12px; color: var(--navy); }
 .hub-card__lead { color: var(--ink-soft); font-size: 15px; flex: 1; margin-bottom: 22px; }
 .hub-card__link {
   display: inline-flex;
