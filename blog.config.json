@@ -1,0 +1,47 @@
+{
+  "siteName": "Миров",
+  "siteUrl": "https://murzzsite.github.io/mirov-yuristy",
+  "lang": "ru",
+  "repo": "murzzsite/mirov-yuristy",
+  "ref": "4HY3MXVF5Z",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Практические статьи юристов компании «Миров»: семейные, земельные, наследственные споры, арбитраж и договоры в Симферополе и Крыму",
+  "homeTitle": "Полезные статьи юристов",
+  "author": {
+    "name": "Миров",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — юрист разберёт вашу ситуацию и назовёт стоимость.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#form",
+  "disclaimer": "Материал носит информационный характер и не заменяет индивидуальную юридическую консультацию. Исход дела зависит от обстоятельств и документов в конкретной ситуации.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/semejnye-spory-simferopol.html",
+    "/zemelnye-spory-simferopol.html",
+    "/nasledstvo-simferopol.html",
+    "/arbitrazhnye-spory-simferopol.html",
+    "/dogovornaya-rabota-simferopol.html",
+    "/yuridicheskoe-soprovozhdenie-biznesa-simferopol.html",
+    "/privacy.html",
+    "/consent.html"
+  ],
+  "indexNowKey": "efb03312be2bb571822998828ef01213",
+  "previewSecret": "3ca02c37f42e979f",
+  "theme": {
+    "accent": "var(--gold)",
+    "accent-soft": "color-mix(in srgb, var(--gold) 10%, #ffffff)",
+    "bg": "var(--cream)",
+    "surface": "var(--paper)",
+    "ink": "var(--navy)",
+    "text": "var(--ink)",
+    "soft": "var(--ink-soft)",
+    "line": "var(--line)"
+  }
+}

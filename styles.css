@@ -225,3 +225,27 @@ ul{list-style:none}
 @media (max-width:380px){
   .logo__suffix{display:none}
 }
+
+/* SERVICE PAGES */
+.crumbs{font-size:13.5px;color:var(--ink-soft);margin-bottom:18px}
+.crumbs a{color:var(--gold)}
+.crumbs span{margin:0 4px}
+.svc-hero{padding:56px 0 24px}
+.svc-hero h1{font-size:38px;max-width:860px;margin-bottom:18px}
+.svc-hero__lead{font-size:18px;color:var(--ink-soft);max-width:760px;margin-bottom:28px}
+.svc-body{padding-top:32px}
+.svc-body__inner{max-width:860px}
+.svc-block{margin-bottom:44px}
+.svc-block h2{font-size:26px;margin-bottom:14px}
+.svc-block p{color:var(--ink-soft);margin-bottom:12px;font-size:16px}
+.svc-list{margin:8px 0 0 0}
+.svc-list li{position:relative;padding-left:24px;margin-bottom:10px;color:var(--ink-soft)}
+.svc-list li::before{content:"";position:absolute;left:0;top:11px;width:10px;height:2px;background:var(--gold)}
+.svc-steps{list-style:none;counter-reset:s;margin-top:8px}
+.svc-steps li{counter-increment:s;position:relative;padding-left:44px;margin-bottom:14px;color:var(--ink-soft)}
+.svc-steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}
+.svc-steps li b{color:var(--navy)}
+.svc-related{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-bottom:28px;font-size:15px;color:var(--ink-soft)}
+.svc-related__link{color:var(--gold);font-weight:700}
+.svc-note{font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:18px}
+@media (max-width:900px){.svc-hero h1{font-size:28px}.svc-block h2{font-size:22px}}
